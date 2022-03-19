@@ -30,8 +30,8 @@ mac_setup() {
 }
 
 linux_setup() {
-    sudo apt-get install -y ideviceinstaller
-    sudo apt-get install -y libimobiledevice-utils
+    apt-get install -y ideviceinstaller
+    apt-get install -y libimobiledevice-utils
 }
 
 platform="$(uname -s)"
